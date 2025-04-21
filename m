@@ -23,7 +23,7 @@ def main():
                 guessed = True
                 print(f"Congratulations! You've guessed the number {number_to_guess} in {attempts} attempts.")
         except ValueError:
-            print("Invalid input. Please enter a valid integer.")
+            print("Invalid . Please enter a valid integer.")
 
 if __name__ == "__main__":
     main()
